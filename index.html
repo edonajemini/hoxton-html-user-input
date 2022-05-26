@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Stylish form</title>
+</head>
+<body>
+    <form>
+        <div class="border">
+        <h1>Hey There!</h1>
+            <label for="name">What's your name?</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              required
+              minlength="3"
+              maxlength="10"
+            />
+            <label for="email">What's your email address?</label>
+            <input id="email" type="email" name="email" required />
+            <label for="services">What services are you looking for?</label>
+            <select id="services" name="services" required>
+              <option value="">Choose a service</option>
+              <option>aaaa</option>
+              <option>bbbb</option>
+              <option>cccc</option>
+              <option>dddd</option>
+            </select>
+            <label for="budget">What is your budget?</label>
+            <select id="budget" name="budget" required>
+              <option value="">Choose a service</option>
+              <option>1111</option>
+              <option>2222</option>
+              <option>3333</option>
+              <option>4444</option>
+            </select>
+      
+            <label for="message">Anything else you would like to tell us?</label>
+            <textarea
+              id="message"
+              rows="5"
+              name="message"
+              required
+              minlength="10"
+            ></textarea>
+      
+            <label for="agree"
+              >I agree with the T&Cs.
+              <input id="agree" type="checkbox" name="agree" required />
+            </label>
+      
+            <button>SUBMIT</button>
+        </div>
+          </form>
+</body>
+</html>

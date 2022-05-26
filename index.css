@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth
+}
+:root {
+    --primary: #5f509977;
+}
+form {
+    display: grid;
+    width: auto;
+    gap: 1rem;
+    justify-content: center;
+    margin: 50px;
+  }
+  .border{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow:0px 2px 80px 2px var(--primary);
+    border-radius: 10px;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    padding:30px;
+    width: 400px;
+    padding: 30px;
+  }
+
+  textarea {
+    resize: none;
+  }
+  form h1{
+      text-align: center;
+      color:var(--primary);
+  }
