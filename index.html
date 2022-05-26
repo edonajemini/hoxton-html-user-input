@@ -34,22 +34,14 @@
               <option>3333</option>
               <option>4444</option>
             </select>
-
-            <label for="message">Anything else u would like to tell us?</label>
-            <textarea
-              id="message"
-              rows="5"
-              name="message"
-              required
-              minlength="10"
-            ></textarea>
-      
-            <label for="agree"
-              >I agree
-              <input id="agree" type="checkbox" name="agree" required />
-            </label>
-      
-            <button>SEND</button>
+            <div class="text-box">
+            <p><label for="message">Anything else u would like to tell us?</label></p>
+            <textarea id="message" name="message" >Your message here...</textarea>
+            </div>
+            <div class="check">
+            <label>I agree with the T&Cs. <input type="checkbox" name="agree"/></label>
+            </div>
+            <button>SUBMIT</button>
         </div>
           </form>
 </body>

@@ -6,7 +6,10 @@
     scroll-behavior: smooth
 }
 :root {
-    --primary: #5f509977;
+    --primary: rgba(149, 91, 176, 0.595);
+    
+    
+    
 }
 form {
     display: grid;
@@ -34,9 +37,6 @@ form {
       color:var(--primary);
   }
 
-  textarea {
-    resize: none;
-  }
   .border label {
       color: rgb(101, 98, 98);
       font-size: 12px;
@@ -66,7 +66,7 @@ form {
         border-bottom: thin solid var(--primary);
         border-radius: 0;
         width: 300px;
-        display: inline-block;
+        display: flex;
         font: bolder;
         line-height: 1.5em;
         padding: 0.5em 3.5em 0.5em 1em;
@@ -78,4 +78,40 @@ select:focus {
     outline:none;
     background-color: rgba(220, 220, 220, 0.278);
     border-radius: 8px;
+}
+textarea{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: thin solid var(--primary);
+    border-radius: 0;
+    width: 300px;
+    display: flex;
+    font: bolder;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    margin: 0;      
+    -webkit-appearance:none;     
+    resize: none;
+      }
+.text-box p {
+    color: gainsboro;
+}
+textarea:focus {
+    outline:none;
+    background-color: rgba(220, 220, 220, 0.278);
+    border-radius: 8px;
+}
+.check{
+display: inline-block;
+}
+button {
+    outline:none;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(220, 220, 220, 0.278);
+    border: thin solid transparent;
+    border-radius: 25px;
+    background-color: var(--primary);
+    color:white;
 }
