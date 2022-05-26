@@ -21,11 +21,6 @@ form {
     margin-right:350px;
     background-color: #bccee0;
     background-image: linear-gradient(62deg, #bccee0 0%, #e4cef7 100%);
-
-
-
-
-
   }
   .border{
     margin:50px;
@@ -60,7 +55,7 @@ form {
     padding-bottom: 15px;
     padding-top: 2px;
     padding-left: 5px;
-    width: 300px;
+    width: 320px;
   }
 
   input:focus{
@@ -76,6 +71,7 @@ form {
         border-bottom: thin solid var(--primary);
         border-radius: 0;
         width: 320px;
+        height:30px;
         display: flex;
         font: bolder;
         line-height: 1.5em;
@@ -105,7 +101,7 @@ textarea{
     resize: none;
       }
 .text-box p {
-    color: gainsboro;
+    font-size: larger;
 }
 textarea:focus {
     outline:none;
