@@ -8,19 +8,29 @@
 :root {
     --primary: rgba(149, 91, 176, 0.595);
     
-    
-    
 }
 form {
     display: grid;
-    width: auto;
     gap: 1rem;
     justify-content: center;
-    margin: 30px;
+    border: 1px solid transparent;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right:350px;
+    background-color: #bccee0;
+    background-image: linear-gradient(62deg, #bccee0 0%, #e4cef7 100%);
+
+
+
+
 
   }
   .border{
-    border: 1px solid rgb(255, 255, 255);
+    margin:50px;
+    border: 0px solid transparent;
+    background-color: white;
     box-shadow:0px 2px 80px 2px var(--primary);
     border-radius: 10px;
     display: grid;
@@ -28,13 +38,13 @@ form {
     justify-content: center;
     padding:30px;
     width: 400px;
-    padding: 30px;
   }
 
   form h1{
-
+    background: -webkit-linear-gradient(rgb(223, 202, 214), rgb(182, 214, 225));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
       text-align: center;
-      color:var(--primary);
   }
 
   .border label {
@@ -65,7 +75,7 @@ form {
         border-right: transparent;
         border-bottom: thin solid var(--primary);
         border-radius: 0;
-        width: 300px;
+        width: 320px;
         display: flex;
         font: bolder;
         line-height: 1.5em;
@@ -85,7 +95,7 @@ textarea{
     border-right: transparent;
     border-bottom: thin solid var(--primary);
     border-radius: 0;
-    width: 300px;
+    width: 320px;
     display: flex;
     font: bolder;
     line-height: 1.5em;
@@ -107,9 +117,9 @@ display: inline-block;
 }
 button {
     outline:none;
-    width: 300px;
+    width: 320px;
     height: 30px;
-    background-color: rgba(220, 220, 220, 0.278);
+    background-image: linear-gradient(62deg, #bccee0 0%, #e4cef7 100%);
     border: thin solid transparent;
     border-radius: 25px;
     background-color: var(--primary);
