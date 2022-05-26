@@ -13,15 +13,11 @@
         <h1>Hey There!</h1>
             <label for="name">What's your name?</label>
             <input
-              id="name"
-              type="text"
-              name="name"
-              required
-              minlength="3"
-              maxlength="10"
+              id="name" type="text" name="name" required minlength="3" maxlength="10" placeholder="Enter your name.."
             />
             <label for="email">What's your email address?</label>
-            <input id="email" type="email" name="email" required />
+            <input id="email" type="email" name="email" placeholder="Enter your email addres.." required />
+            
             <label for="services">What services are you looking for?</label>
             <select id="services" name="services" required>
               <option value="">Choose a service</option>
@@ -32,14 +28,14 @@
             </select>
             <label for="budget">What is your budget?</label>
             <select id="budget" name="budget" required>
-              <option value="">Choose a service</option>
+              <option value="">Select budget</option>
               <option>1111</option>
               <option>2222</option>
               <option>3333</option>
               <option>4444</option>
             </select>
-      
-            <label for="message">Anything else you would like to tell us?</label>
+            
+            <label for="message">Message:</label>
             <textarea
               id="message"
               rows="5"
@@ -49,11 +45,11 @@
             ></textarea>
       
             <label for="agree"
-              >I agree with the T&Cs.
+              >I agree
               <input id="agree" type="checkbox" name="agree" required />
             </label>
       
-            <button>SUBMIT</button>
+            <button>SEND</button>
         </div>
           </form>
 </body>
